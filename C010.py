@@ -1,3 +1,5 @@
+# programa para ler dois valor, calcular e imprimir seu maximo divisor comum usando algoritmo de euclides
+
 a = int(input())
 b = int(input())
 resto=1
