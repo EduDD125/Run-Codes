@@ -1,3 +1,5 @@
+# Programa para recer numeros inteiros e imprimir estes em ordem crescente.
+
 # ENTRADA:
 a = int(input())
 b = int(input())
