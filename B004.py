@@ -1,12 +1,12 @@
-#B004.py
+# Calcular valor de corrida com diferentes taxas dependedo das distancia percorrida. Valor acima de "distancia_taxa" teram um taxa 'taxa_1' e a baixo teram um taxa 'taxa_2'
 
-x=float(input())
-v1=float(input())
-v2=float(input())
-a=float(input())
+distancia_taxa=float(input())
+taxa_1 = float(input())
+taxa_2 = float(input())
+distancia_percorrida=float(input())
 
-if a<=x:
-    c=a*v1
+if distancia_percorrida <= distancia_taxa:
+   valor = distancia_percorrida * taxa_1
 else:
-    c=a*v2
-print(f"{c:.2f}")
+    valor = distancia_percorrida * taxa_2
+print(f"{valor:.2f}")
